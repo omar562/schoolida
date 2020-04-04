@@ -1,6 +1,6 @@
 # Schoolida
 
-Schoolida is a famous school in Lebanon. Because of the current situation in Lebanon, Schoolida was obliged to send its staff and students to their homes. This did not only affect the teacher-student communication, but also the communication in between staff. Having said this, Schoolida is looking to implement an online system that manages the school.
+Schoolida is a famous school in Lebanon. Because of the current corona situation, Schoolida was obliged to send its staff and students to their homes. This did not only affect the teacher-student communication, but also the communication in between staff. Having this, Schoolida is looking to implement an online system that manages the school.
 
 Schoolida’s staff consists of:
 
@@ -159,4 +159,3 @@ at every stage, the assigment has a status that defines the permissions on it.
 3- status: **completed** and **closed**
 * teacher and student can view assignment
 * teacher can add grade to assigment which the student can view
-
