@@ -37,6 +37,7 @@ All the employees share the following information:
 
 * floors_covered (could be covering more than 1 floor)
 * classes_taught (could be teaching more than 1 class)
+* subject
 * employment_type (part-time or full-time)
 
 > part-time teachers
@@ -64,6 +65,7 @@ i.e. what employees can see about other employees
 * teacher specific info
   * floors_covered
   * classes_taught
+  * subject
 * counselor specific info
 
 ### Special permissions
@@ -98,7 +100,7 @@ the principal should be able to create/edit/delete students
 
 #### batch upload
 
-Schoolida has a large number of studnets. It's difficult for the principal to fill a form and add students. Therefore, the principal should be able to upload a csv sheet with needed information to add students
+Schoolida has a large number of studnets. It's difficult for the principal to fill a form and add students. Therefore, the principal should be able to upload a csv sheet with needed information (see student properties above) to add students
 
 ### Floors
 
@@ -106,7 +108,7 @@ the principal can assign floor directors to floors
 
 ### Classes
 
-* the principal can create/edit/delete classes and assign them to floors
+* the principal can create/edit/delete classes and assign them to floors, teachers, and students
 * the floor directors can edit classes assigned to their floors
 * teachers can view students in each class
 * students can view classes they are assigned to
@@ -157,5 +159,20 @@ at every stage, the assigment has a status that defines the permissions on it.
 * teacher can change status to **closed**
 
 3- status: **completed** and **closed**
+* only teacher and student can view assignment
+* teacher can add grade which changes status to **graded**
+
+4- status: **graded**
 * teacher and student can view assignment
-* teacher can add grade to assigment which the student can view
+
+### Counseling Appointment
+
+* students can book counseling appointment with the counselor of their choice during the working days and hours of this counselor
+*the counselor can't have 2 appointments at the same time*
+
+### Accounting
+
+* accountant can generate sheet with all the detailed payment info for all roles (monthly or yearly)
+*for the part-time teachers, salary = base_salary + hourly_rate * monthly_hours
+sheet sample:
+first_name | last_name | role | total_salary_per_month | total_salary_per_year | bank info...
