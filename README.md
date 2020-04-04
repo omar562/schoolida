@@ -174,5 +174,7 @@ at every stage, the assigment has a status that defines the permissions on it.
 
 * accountant can generate sheet with all the detailed payment info for all roles (monthly or yearly)
 *for the part-time teachers, salary = base_salary + hourly_rate * monthly_hours
+
 sheet sample:
+
 first_name | last_name | role | total_salary_per_month | total_salary_per_year | bank info...
